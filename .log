@@ -1,0 +1,21 @@
+[33m[nodemon] 2.0.21[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node index.js`[39m
+Server is listening at : 3000
+::1 - - [10/Mar/2023:17:28:41 +0000] "POST /moh HTTP/1.1" 200 15 "-" "PostmanRuntime/7.29.2"
+::1 - - [10/Mar/2023:17:29:10 +0000] "POST /moh HTTP/1.1" 200 15 "-" "PostmanRuntime/7.29.2"
+::1 - - [10/Mar/2023:17:29:13 +0000] "POST /moh HTTP/1.1" 200 15 "-" "PostmanRuntime/7.29.2"
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+Server is listening at : 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+Server is listening at : 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+Server is listening at : 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+Server is listening at : 3000
