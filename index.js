@@ -1,18 +1,18 @@
-const express = require("express")
-const morgan = require("morgan")
+const express = require("express");
+const morgan = require("morgan");
+require("dotenv").config()
+
 
 const empRoutes = require("./routes/employee");
 const itStuffRoutes = require("./routes/it-stuff");
 
 
-const PORT = 3000 
+const PORT = process.env.PORT 
 
 const app = express()
+.use(express.json())
     .use(morgan("combined"))
-    
     .use("/employee",empRoutes)
-
-
     .use("/it-stuff",itStuffRoutes)
 
 
