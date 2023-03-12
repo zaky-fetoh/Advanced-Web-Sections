@@ -6,6 +6,3 @@ module.exports = express.Router()
     .post("/", itStuff.addItStuff)
     .delete("/", itStuff.deleteItStuff)
     .put("/", itStuff.editItStuff)
-
-
-

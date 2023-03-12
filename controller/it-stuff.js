@@ -1,9 +1,5 @@
 exports.addItStuff =(req, res, next) =>{
-    console.log("adding ItStuff")
-    console.log(req.body);
-    res.json({
-        name: "geg",
-    })
+    
 }
 
 exports.getItStuff= (req,res, next)=>{
